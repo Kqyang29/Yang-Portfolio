@@ -17,24 +17,24 @@ function Contact() {
   };
   
   return (
-		<div className="flex flex-col max-w-6xl w-full h-screen mx-auto items-center justify-center">
+		<div className="flex flex-col max-w-6xl w-full h-screen mx-auto items-center justify-center mb-20">
 			<h3 className="text-2xl text-gray-500 uppercase tracking-[12px] mt-16">
 				Contact
 			</h3>
 
 			<div className="flex flex-col items-center space-y-7 mt-10">
 				<div className="flex flex-col items-center space-y-10">
-					<h3 className="flex items-center">
+					<h3 className="flex items-center space-x-2">
 						<PhoneIcon className="w-7 h-7 text-[#F7ab0a]/40 animate-pulse" />
 						<p>+1 626 438 6612</p>
 					</h3>
 
-					<h3 className="flex items-center">
+					<h3 className="flex items-center space-x-2">
 						<EnvelopeIcon className="w-7 h-7 text-[#F7ab0a]/40 animate-pulse" />
 						<p>yangkq0417@gmail.com</p>
 					</h3>
 
-					<h3 className="flex items-center">
+					<h3 className="flex items-center space-x-2">
 						<MapPinIcon className="w-7 h-7 text-[#F7ab0a]/40 animate-pulse" />
 						<p>10633 Reseda Blvd</p>
 					</h3>

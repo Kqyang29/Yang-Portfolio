@@ -20,10 +20,10 @@ function project() {
 				Project
 			</h3>
 
-			<div className="flex overflow-x-scroll space-x-5 max-w-5xl w-full min-h-screen px-5 snap-x snap-mandatory mt-10 ">
+			<div className="flex overflow-x-scroll space-x-5 max-w-5xl w-full min-h-screen px-5 snap-x snap-mandatory mt-10 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#f7ab0a]/80">
 				{projects.map((project, i) => (
 					<div
-						className="w-[500px] h-[700px] md:w-[600px] xl:w-[700px] flex flex-col  flex-shrink-0 p-10 text-left space-y-5 snap-center hover:shadow-md rounded-lg hover:shadow-gray-300 m-3 items-center opacity-80 hover:opacity-100"
+						className="w-[500px] h-[700px] md:w-[600px] xl:w-[700px] flex flex-col  flex-shrink-0 p-10 text-left space-y-5 snap-center hover:shadow-md rounded-lg hover:shadow-gray-300 m-3 items-center opacity-80 hover:opacity-100 "
 						key={i}>
 						<Link href="https://github.com/Kqyang29/React-Gmail-clone">
 							<motion.img
