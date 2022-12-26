@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 function Header() {
   return (
 		<header className="sticky top-0 w-full">
-			<div className="max-w-6xl mx-auto py-4 px-5  flex items-center justify-between">
+			<div className="max-w-6xl mx-auto py-4 px-5  flex items-center justify-between z-20 ">
 				{/* left */}
 				<motion.div
 					initial={{

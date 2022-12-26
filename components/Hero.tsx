@@ -14,15 +14,15 @@ function Hero() {
 	});
   return (
 		<div className="flex flex-col items-center justify-center relative  text-center space-y-5 h-screen">
-			<div className="w-full absolute top-[20%] bg-[#F7AB0A]/10 h-[200px] -skew-y-12" />
+			<div className="w-full absolute top-[25%] bg-[#F7AB0A]/10 h-[200px] -skew-y-12" />
 
 			<img
 				src="./me.jpg"
 				alt=""
-				className="w-32 h-32 rounded-full absolute top-14"
+				className="w-32 h-32 rounded-full absolute top-20"
 			/>
 
-			<div className="space-y-5">
+			<div className="space-y-5 -mt-5">
 				<h2 className="uppercase tracking-[12px] text-lg text-gray-500">
 					Front End Engineer
 				</h2>
@@ -31,21 +31,20 @@ function Hero() {
 					<span>{text}</span>
 					<Cursor cursorColor="#F7AB0A" />
 				</h1>
+			</div>
 
-				<div className="space-x-10 text-gray-500">
-					<Link href="#about">
-						<button className="heroBtn">About</button>
-					</Link>
+			<div className="space-x-10 absolute bottom-20 pb-20 text-gray-500">
+				<Link href="#about">
+					<button className="heroBtn">About</button>
+				</Link>
 
-					<Link href="#project">
-						<button className="heroBtn">Project</button>
-					</Link>
+				<Link href="#project">
+					<button className="heroBtn">Project</button>
+				</Link>
 
-					<Link href="#contact">
-						<button className="heroBtn">Contact</button>
-					</Link>
-
-				</div>
+				<Link href="#contact">
+					<button className="heroBtn">Contact</button>
+				</Link>
 			</div>
 		</div>
 	);
