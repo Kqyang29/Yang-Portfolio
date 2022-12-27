@@ -1,10 +1,15 @@
 import Link from 'next/link';
 import React from 'react'
 import {motion} from 'framer-motion'
+import { Project } from '../typing';
+import { urlFor } from '../sanity';
 
-function project() {
-  const projects = [1, 2, 3];
-  return (
+type Props = {
+	projects: Project[];
+}
+function Projects({ projects }: Props) {
+	console.log(projects)
+	return (
 		<motion.div
 			initial={{
 				opacity: 0,
@@ -24,7 +29,7 @@ function project() {
 				{projects.map((project, i) => (
 					<div
 						className="w-[500px] h-[700px] md:w-[600px] xl:w-[700px] flex flex-col  flex-shrink-0 p-10 text-left space-y-5 snap-center hover:shadow-md rounded-lg hover:shadow-gray-300 m-3 items-center opacity-80 hover:opacity-100 "
-						key={i}>
+						key={project._id}>
 						<Link href="https://github.com/Kqyang29/React-Gmail-clone">
 							<motion.img
 								initial={{
@@ -39,36 +44,37 @@ function project() {
 								transition={{
 									duration: 1.2,
 								}}
-								src="./Airbnb Clone.png"
-								alt=""
+								src={urlFor(project?.image).url()}
+								alt={project?.title}
 								className="rounded-sm h-[100px] w-[200px] object-center cursor-pointer"
 							/>
 						</Link>
 						<div className="p-2 md:p-10 space-y-5">
 							<p className="font-bold text-2xl ">
-								Project {i + 1} of {projects.length}: Airbnb Clone
+								Project {i + 1} of {projects.length}: {project?.title}
 							</p>
 
 							<div className="flex items-center space-x-3">
-								<img
-									src="./Airbnb Clone.png"
-									alt=""
-									className="w-10 h-10 rounded-full mb-4"
-								/>
+								{project.tech.map((techs, i) => (
+									<img
+										key={i}
+										src={urlFor(techs.image).url()}
+										alt={techs.title}
+										className="w-10 h-10 rounded-full mb-4 border rounded-full p-[2px]"
+									/>
+								))}
 							</div>
 
 							<Link href="https://react-gmail-clone-rho.vercel.app">
-								<h3 className="font-semibold text-lg cursor-pointer text-blue-500">
-									https://react-gmail-clone-rho.vercel.app
+								<h3 className="font-semibold text-md cursor-pointer md:whitespace-nowrap text-blue-500">
+									{project?.link}
 								</h3>
 							</Link>
 
-							<ul className="text-lg list-disc space-y-5 ml-10">
-								<li>Porject Points</li>
-								<li>Porject Points</li>
-								<li>Porject Points</li>
-								<li>Porject Points</li>
-								<li>Porject Points</li>
+							<ul className="text-lg list-disc space-y-3 ml-10">
+								{project.points.map((point, i) => (
+									<li className='text-sm' key={i}>{ point}</li>
+									))}
 							</ul>
 						</div>
 					</div>
@@ -78,4 +84,4 @@ function project() {
 	);
 }
 
-export default project
+export default Projects

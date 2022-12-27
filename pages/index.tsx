@@ -2,13 +2,26 @@ import Head from 'next/head'
 import About from '../components/About';
 import Header from '../components/Header'
 import Hero from '../components/Hero';
-import Project from "../components/project";
+import Projects from "../components/projects";
 import Contact from "../components/contact";
 import Link from 'next/link';
 import { ArrowUpIcon } from '@heroicons/react/24/solid';
+import { PageInfo, Project, Skill, Social } from '../typing';
+import { fetchSkill } from '../utils/fetchSkill';
+import { fetchSocial } from '../utils/fetchSocial';
+import { fetchProject } from '../utils/fetchProject';
+import { fetchPageInfo } from '../utils/fetchPageInfo';
+
+type Props = {
+	skills: Skill[];
+	pageInfo: PageInfo;
+	project: Project[];
+	socials: Social[];
+};
 
 
-export default function Home() {
+export default function Home({ skills, pageInfo, project, socials }: Props) {
+  // console.log(skills, pageInfo, project, socials)
   return (
 		<div className="h-screen bg-[rgb(36,36,36)] overflow-y-scroll text-white snap-y overflow-x-hidden scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#f7ab0a]/80">
 			<Head>
@@ -20,28 +33,43 @@ export default function Home() {
 			<Header />
 
 			<section id="hero">
-				<Hero />
+				<Hero pageInfo={pageInfo} />
 			</section>
 
 			<section id="about" className="snap-center">
-				<About />
+				<About pageInfo={pageInfo} />
 			</section>
 
 			<section id="project" className="snap-start">
-				<Project />
+        <Projects projects={project} />
 			</section>
 
 			<section id="contact">
 				<Contact />
 			</section>
 
-			<section className='sticky bottom-5 ml-10'>
+			<section className="sticky bottom-5 ml-10">
 				<Link href="#hero">
-	
 					<ArrowUpIcon className="h-7 border cursor-pointer rounded-full bg-slate-800 text-white" />
-	
 				</Link>
 			</section>
 		</div>
 	);
+}
+
+
+export async function getServerSideProps() {
+  const skills: Skill[] = await fetchSkill();
+	const socials: Social[] = await fetchSocial();
+	const project: Project[] = await fetchProject();
+	const pageInfo: PageInfo[] = await fetchPageInfo();
+
+	return {
+		props: {
+			skills,
+			socials,
+			project,
+			pageInfo,
+		},
+	};
 }

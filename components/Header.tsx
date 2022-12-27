@@ -27,12 +27,12 @@ function Header() {
 						bgColor="transparent"
 					/>
 					<SocialIcon
-						url="https://github.com/Kqyang29?tab=repositories"
+						url="https://twitter.com/Boom57206558"
 						fgColor="lightgray"
 						bgColor="transparent"
 					/>
 					<SocialIcon
-						url="https://github.com/Kqyang29?tab=repositories"
+						url="https://www.linkedin.com/in/kangqiang-yang-28793221b/"
 						fgColor="lightgray"
 						bgColor="transparent"
 					/>

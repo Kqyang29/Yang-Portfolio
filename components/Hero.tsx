@@ -1,30 +1,35 @@
 import Link from 'next/link';
 import React from 'react'
 import { Typewriter, Cursor, useTypewriter } from "react-simple-typewriter";
+import { urlFor } from '../sanity';
+import { PageInfo } from '../typing';
 
-function Hero() {
-
-  const [text, count] = useTypewriter({
+type Props = {
+	pageInfo: PageInfo;
+}
+function Hero({ pageInfo }: Props) {
+	// console.log(pageInfo);
+	const [text, count] = useTypewriter({
 		words: [
-			`Hi, My Name is Kangqiang Yang`,
+			`Hi, My Name is ${pageInfo?.name}`,
 			"A Guy who passionate to build the Web Application",
 		],
 		loop: true,
 		delaySpeed: 1500,
 	});
-  return (
+	return (
 		<div className="flex flex-col items-center justify-center relative  text-center space-y-5 h-screen">
 			<div className="w-full absolute top-[25%] bg-[#F7AB0A]/10 h-[200px] -skew-y-12" />
 
 			<img
-				src="./me.jpg"
-				alt=""
+				src={urlFor(pageInfo?.heroImage).url()}
+				alt={pageInfo?.name}
 				className="w-32 h-32 rounded-full absolute top-20"
 			/>
 
 			<div className="space-y-5 -mt-5">
 				<h2 className="uppercase tracking-[12px] text-lg text-gray-500">
-					Front End Engineer
+					{pageInfo?.role}
 				</h2>
 
 				<h1 className="text-white text-2xl">
