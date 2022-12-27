@@ -7,8 +7,8 @@ import { urlFor } from '../sanity';
 type Props = {
 	projects: Project[];
 }
-function Projects({ projects }: Props) {
-	console.log(projects)
+function Projects() {
+	const projects = [1, 2, 3];
 	return (
 		<motion.div
 			initial={{
@@ -29,7 +29,7 @@ function Projects({ projects }: Props) {
 				{projects.map((project, i) => (
 					<div
 						className="w-[500px] h-[700px] md:w-[600px] xl:w-[700px] flex flex-col  flex-shrink-0 p-10 text-left space-y-5 snap-center hover:shadow-md rounded-lg hover:shadow-gray-300 m-3 items-center opacity-80 hover:opacity-100 "
-						key={project._id}>
+						key={i}>
 						<Link href="https://github.com/Kqyang29/React-Gmail-clone">
 							<motion.img
 								initial={{
@@ -44,37 +44,35 @@ function Projects({ projects }: Props) {
 								transition={{
 									duration: 1.2,
 								}}
-								src={urlFor(project?.image).url()}
-								alt={project?.title}
+								src="./Airbnb Clone.png"
+								alt=""
 								className="rounded-sm h-[100px] w-[200px] object-center cursor-pointer"
 							/>
 						</Link>
 						<div className="p-2 md:p-10 space-y-5">
 							<p className="font-bold text-2xl ">
-								Project {i + 1} of {projects.length}: {project?.title}
+								Project {i + 1} of {projects.length}: Airbnb Clone
 							</p>
 
 							<div className="flex items-center space-x-3">
-								{project.tech.map((techs, i) => (
-									<img
-										key={i}
-										src={urlFor(techs.image).url()}
-										alt={techs.title}
-										className="w-10 h-10 rounded-full mb-4 border rounded-full p-[2px]"
-									/>
-								))}
+								<img
+									src="./Airbnb Clone.png"
+									alt=""
+									className="w-10 h-10 rounded-full mb-4 border rounded-full p-[2px]"
+								/>
 							</div>
 
 							<Link href="https://react-gmail-clone-rho.vercel.app">
 								<h3 className="font-semibold text-md cursor-pointer md:whitespace-nowrap text-blue-500">
-									{project?.link}
+									https://react-gmail-clone-rho.vercel.app
 								</h3>
 							</Link>
 
 							<ul className="text-lg list-disc space-y-3 ml-10">
-								{project.points.map((point, i) => (
-									<li className='text-sm' key={i}>{ point}</li>
-									))}
+								<li>s</li>
+								<li>s</li>
+								<li>s</li>
+								<li>s</li>
 							</ul>
 						</div>
 					</div>

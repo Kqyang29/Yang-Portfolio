@@ -7,11 +7,11 @@ import { PageInfo } from '../typing';
 type Props = {
 	pageInfo: PageInfo;
 }
-function Hero({ pageInfo }: Props) {
+function Hero() {
 	// console.log(pageInfo);
 	const [text, count] = useTypewriter({
 		words: [
-			`Hi, My Name is ${pageInfo?.name}`,
+			`Hi, My Name is Kangqiang Yang`,
 			"A Guy who passionate to build the Web Application",
 		],
 		loop: true,
@@ -22,14 +22,14 @@ function Hero({ pageInfo }: Props) {
 			<div className="w-full absolute top-[25%] bg-[#F7AB0A]/10 h-[200px] -skew-y-12" />
 
 			<img
-				src={urlFor(pageInfo?.heroImage).url()}
-				alt={pageInfo?.name}
+				src='./me.jpg'
+				alt=""
 				className="w-32 h-32 rounded-full absolute top-20"
 			/>
 
 			<div className="space-y-5 -mt-5">
 				<h2 className="uppercase tracking-[12px] text-lg text-gray-500">
-					{pageInfo?.role}
+					Front End Engineer
 				</h2>
 
 				<h1 className="text-white text-2xl">

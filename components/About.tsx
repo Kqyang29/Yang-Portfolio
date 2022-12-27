@@ -3,11 +3,8 @@ import { motion } from 'framer-motion'
 import { PageInfo } from '../typing';
 import { urlFor } from '../sanity';
 
-type Props = {
-	pageInfo: PageInfo;
-}
 
-function About({ pageInfo }: Props) {
+function About() {
 	// console.log(pageInfo)
 	return (
 		<div className="max-w-6xl h-screen mx-auto flex flex-col items-center space-y-5">
@@ -17,8 +14,8 @@ function About({ pageInfo }: Props) {
 
 			<div className="flex flex-col md:flex-row items-center space-x-5">
 				<img
-					src={urlFor(pageInfo?.profilePic).url()}
-					alt={pageInfo?.name}
+					src="./me.jpg"
+					alt=""
 					className="rounded-full md:rounded-lg -mt-2 mr-2 w-32 h-32 md:w-56 md:h-56 hover:scale-105 transition transform duration-150"
 				/>
 
@@ -40,7 +37,7 @@ function About({ pageInfo }: Props) {
 							}}
 							className="text-left whitespace-nowrap space-y-5 px-6 md:px-10 text-sm md:text-lg">
 							<h2>
-								Name: <span className="text-[#F7BA0A]">{pageInfo?.name}</span>
+								Name: <span className="text-[#F7BA0A]">Kangqiang Yang</span>
 							</h2>
 
 							<h2>
@@ -52,7 +49,7 @@ function About({ pageInfo }: Props) {
 							</h2>
 
 							<h2>
-								Post: <span className="text-[#F7BA0A]">{pageInfo?.role}</span>
+								Post: <span className="text-[#F7BA0A]">Front End Engineer</span>
 							</h2>
 						</motion.div>
 
@@ -102,7 +99,12 @@ function About({ pageInfo }: Props) {
 						}}
 						className="-mt-5 md:-mt-0 px-0 md:px-5">
 						<p className="text-sm md:text-base max-w-2xl text-left">
-							{pageInfo?.bgInfomation}
+							Hello! My name is Kangqiang Yang and I am currently an
+							undergraduate student majoring in Computer Science at California
+							State University, Northridge. Strong growth mindset, addicted to
+							learning, love problem solving, have a strong interest in
+							front-end development, and can use programming languages including
+							HTML+CSS, JS, REACT, NEXTJS, TailwindCSS.
 						</p>
 					</motion.div>
 				</div>
