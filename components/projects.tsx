@@ -80,7 +80,7 @@ function Projects() {
 
 							<ul className="text-lg list-disc space-y-3 ml-10">
 								{project.points.map((point, i) => (
-									<li key={i}>{point}</li>
+									<li className='text-sm' key={i}>{point}</li>
 								))}
 							</ul>
 						</div>
