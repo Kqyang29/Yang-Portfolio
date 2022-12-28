@@ -333,6 +333,258 @@
 
 			],
 			"title": "LinkedIn Clone"
+		},
+    {
+			"_createdAt": "2022-12-28T01:07:52Z",
+			"_id": "410dd34a-e1f8-4c9c-92a3-967b0aaf7633",
+			"_rev": "i5e7SxTSsJ8BOjx3CC3188",
+			"_type": "project",
+			"_updatedAt": "2022-12-28T01:10:19Z",
+			"image": {
+				"_type": "image",
+				"asset": {
+					"_ref": "image-165d63bfba16c7973cbe9b1dc04c9823cb2e5302-1917x879-png",
+					"_type": "reference"
+				}
+			},
+			"link": "https://react-slack-clone-nine.vercel.app/",
+			"githubLink": "https://github.com/Kqyang29/React-Slack-clone",
+			"points": [
+				"User can login with GoogleAccount",
+				"User can Add channal by themself",
+				"User can send Message in different channel"
+			],
+			"tech": [
+				{
+					"image": {
+						"_type": "image",
+						"asset": {
+							"_ref": "image-89ecc70c2c9f45b67a1298444f26f688a5b551ce-232x270-jpg",
+							"_type": "reference"
+						}
+					},
+					"title": "Redux"
+				},
+				{
+					"image": "image-5f4401e6b7e70f446b2763b1d1cbc806d577d6e0-1024x1024-png",
+					"title": "React"
+				},
+				{
+					"image": {
+						"_type": "image",
+						"asset": {
+							"_ref": "image-9ad2e015bd5f07e90897670fd556c899929f09e1-474x474-jpg",
+							"_type": "reference"
+						}
+					},
+					"title": "Firebase"
+				},
+        {
+					"image": {
+						"_type": "image",
+						"asset": {
+							"_ref": "image-ee5fa27270a6020146b89de74b74eb728bd474bf-318x318-png",
+							"_type": "reference"
+						}
+					},
+					"title": "Style-Component CSS"
+				}
+			],
+			"title": "Slack Clone"
+		},
+   {
+			"_createdAt": "2022-12-28T01:16:00Z",
+			"_id": "4b0b373a-dbc0-4678-bae1-33deb3d80055",
+			"_rev": "i5e7SxTSsJ8BOjx3CC7JvG",
+			"_type": "project",
+			"_updatedAt": "2022-12-28T01:16:00Z",
+			"image": {
+				"_type": "image",
+				"asset": {
+					"_ref": "image-096526c154b2242670e591cd84aa40fbc8f9eb7b-1897x886-png",
+					"_type": "reference"
+				}
+			},
+			"link": "https://login-app-f6992.web.app/",
+			"githubLink": "https://github.com/Kqyang29/React-Netflix-clone",
+
+			"points": [
+				"User Sign In with Email",
+				"Banner can switch different Topic in each page Refresh",
+				"Profile Page Can see the user information and upload user Avatar",
+				"Fully Responsive Page",
+				"Navigate to different pages"
+			],
+			"tech": [
+				{
+					"image": {
+						"_type": "image",
+						"asset": {
+							"_ref": "image-89ecc70c2c9f45b67a1298444f26f688a5b551ce-232x270-jpg",
+							"_type": "reference"
+						}
+					},
+					"title": "Redux"
+				},
+				{
+					"image": "image-5f4401e6b7e70f446b2763b1d1cbc806d577d6e0-1024x1024-png",
+					"title": "React"
+				},
+				{
+					"image": {
+						"_type": "image",
+						"asset": {
+							"_ref": "image-9ad2e015bd5f07e90897670fd556c899929f09e1-474x474-jpg",
+							"_type": "reference"
+						}
+					},
+					"title": "Firebase"
+				},
+				{
+					"image": {
+						"_type": "image",
+						"asset": {
+							"_ref": "image-8c782b6c87ae64ea6c5794834d9cd2a23dc047f4-218x154-jpg",
+							"_type": "reference"
+						}
+					},
+					"title": "NextJS"
+				}
+			],
+			"title": "Netflix Clone"
+		},
+    {
+			"_createdAt": "2022-12-28T01:22:53Z",
+			"_id": "92fba496-d851-4d7c-80cb-6f9bbef9aafb",
+			"_rev": "ZztGyD1pWq3UKdC5q30PI1",
+			"_type": "project",
+			"_updatedAt": "2022-12-28T01:22:53Z",
+			"image": {
+				"_type": "image",
+				"asset": {
+					"_ref": "image-958420cc3c2e003655c25317d48f0ea6ac50d25a-1915x877-png",
+					"_type": "reference"
+				}
+			},
+			"link": "https://react-next-js-instagram-clone.vercel.app/",
+      "githubLink":"https://github.com/Kqyang29/React-Next.js-Instagram-Clone",
+			"points": [
+				"Google Authentication using NextAuth",
+				"Users can Post photos with caption",
+				"Users can like and comment on any post",
+				"Users can message other users of this app",
+				"Users can send Picture as a message",
+				"Fully Responsive",
+				"Without logging in, you can see only see posts and stories"
+			],
+			"tech": [
+				{
+					"image": "image-5f4401e6b7e70f446b2763b1d1cbc806d577d6e0-1024x1024-png",
+					"title": "React"
+				},
+				{
+					"image": {
+						"_type": "image",
+						"asset": {
+							"_ref": "image-9ad2e015bd5f07e90897670fd556c899929f09e1-474x474-jpg",
+							"_type": "reference"
+						}
+					},
+					"title": "Firebase"
+				},
+				{
+					"image": {
+						"_type": "image",
+						"asset": {
+							"_ref": "image-8c782b6c87ae64ea6c5794834d9cd2a23dc047f4-218x154-jpg",
+							"_type": "reference"
+						}
+					},
+					"title": "NextJS"
+				},
+				{
+					"image": {
+						"_type": "image",
+						"asset": {
+							"_ref": "image-bab395b4f8707775d9cc98ebd209adaaa6fa29ce-784x724-png",
+							"_type": "reference"
+						}
+					},
+					"title": "Recoil"
+				},
+				{
+					"image": {
+						"_type": "image",
+						"asset": {
+							"_ref": "image-1a3ea24e2a5d1e2f501c35b699a6c990e356f8d7-456x266-jpg",
+							"_type": "reference"
+						}
+					},
+					"title": "NextAuth"
+				}
+			],
+			"title": "Instagram Clone"
+		},
+    {
+			"_createdAt": "2022-12-28T01:26:57Z",
+			"_id": "92a0ac97-9608-4667-91c2-b5434e6f9303",
+			"_rev": "i5e7SxTSsJ8BOjx3CCI2kj",
+			"_type": "project",
+			"_updatedAt": "2022-12-28T01:26:57Z",
+			"image": {
+				"_type": "image",
+				"asset": {
+					"_ref": "image-3d4ad9b6233cdd20234566d37693ac1f82ca89d2-1920x879-png",
+					"_type": "reference"
+				}
+			},
+			"link": "https://linkedin-clone-3dccb.web.app",
+      "githubLink":"https://github.com/Kqyang29/React_Snapchat_clone",
+			"points": [
+				"User can SignIn with GoogleSignIn && SignOut by Click Avatar",
+				"Click Button ask you get Camera Permission, after allow permission, User can start to take Picture",
+				"After taking the photo, User can preview the picture and Click send",
+				"Picture will send it to Chat Page and User can see their user infomation (name, profilePic,Post_Time..), and it will show unread red Icon",
+				"Click the checkbox, User can preview their picture again, and it will set the 10s timer, after 10s, page will automatically pop back or user can click screen to pop back to last page",
+				"Store the User Info in Redux and pass those value between pages"
+			],
+			"tech": [
+				{
+					"image": {
+						"_type": "image",
+						"asset": {
+							"_ref": "image-89ecc70c2c9f45b67a1298444f26f688a5b551ce-232x270-jpg",
+							"_type": "reference"
+						}
+					},
+					"title": "Redux"
+				},
+				{
+					"image": "image-5f4401e6b7e70f446b2763b1d1cbc806d577d6e0-1024x1024-png",
+					"title": "React"
+				},
+				{
+					"image": {
+						"_type": "image",
+						"asset": {
+							"_ref": "image-9ad2e015bd5f07e90897670fd556c899929f09e1-474x474-jpg",
+							"_type": "reference"
+						}
+					},
+					"title": "Firebase"
+				},
+        {
+					"image": {
+						"_type": "image",
+						"asset": {
+							"_ref": "image-156983451006e5f5231867e5b1c23d75fb55564b-258x270-jpg",
+							"_type": "reference"
+						}
+					},
+					"title": "Material_UI"
+				}
+			],
+			"title": "Snapchat Clone"
 		}
 	]
 }
