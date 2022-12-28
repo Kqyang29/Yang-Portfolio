@@ -6,15 +6,13 @@ import Projects from "../components/projects";
 import Contact from "../components/contact";
 import Link from 'next/link';
 import { ArrowUpIcon } from '@heroicons/react/24/solid';
-import { PageInfo, Project, Skill, Social } from '../typing';
-
 
 
 
 export default function Home() {
 	// console.log(ss)
   // console.log(skills, pageInfo, project, socials)
-  return (
+	return (
 		<div className="h-screen bg-[rgb(36,36,36)] overflow-y-scroll text-white snap-y overflow-x-hidden scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#f7ab0a]/80">
 			<Head>
 				<title>Kangqiang Yang Portfolio</title>
