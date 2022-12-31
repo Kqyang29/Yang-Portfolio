@@ -72,11 +72,11 @@ function Projects() {
 								))}
 							</div>
 
-							<Link href="https://react-gmail-clone-rho.vercel.app">
+							<a href={project.link}>
 								<h3 className="font-semibold text-md cursor-pointer md:whitespace-nowrap text-blue-500">
 									{project.link}
 								</h3>
-							</Link>
+							</a>
 
 							<ul className="text-lg list-disc space-y-3 ml-10">
 								{project.points.map((point, i) => (
