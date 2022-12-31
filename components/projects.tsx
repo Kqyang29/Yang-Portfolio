@@ -74,7 +74,7 @@ function Projects() {
 
 							<Link href="https://react-gmail-clone-rho.vercel.app">
 								<h3 className="font-semibold text-md cursor-pointer md:whitespace-nowrap text-blue-500">
-									https://react-gmail-clone-rho.vercel.app
+									{project.link}
 								</h3>
 							</Link>
 

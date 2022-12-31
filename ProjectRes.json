@@ -1,5 +1,84 @@
 {
 	"result": [
+			{
+    "_createdAt": "2022-12-31T21:41:39Z",
+    "_id": "fb919c35-8ac4-48d1-b2ad-4aa4e88483ba",
+    "_rev": "ZztGyD1pWq3UKdC5qFSe77",
+    "_type": "project",
+    "_updatedAt": "2022-12-31T21:44:48Z",
+    "image": {
+        "_type": "image",
+        "asset": {
+            "_ref": "image-bed15cfe96cc42a528aa219e01b77d797a80e43b-1915x874-png",
+            "_type": "reference"
+        }
+    },
+    "link": "https://react-amazon-clone-oyf229b6o-kqyang29.vercel.app/",
+		"githubLink":"https://github.com/Kqyang29/react-amazon-clone",
+    "points": [
+        "User login with Google Account",
+        "Select Product and browser the products in Shopping Basket",
+        "User checkout the basket by Stripe",
+        "After Accept payment, User can check their order in Order Page"
+    ],
+    "tech": [
+			{
+				"image": {
+					"_type": "image",
+					"asset": {
+						"_ref": "image-89ecc70c2c9f45b67a1298444f26f688a5b551ce-232x270-jpg",
+						"_type": "reference"
+					}
+				},
+				"title": "Redux"
+			},
+			{
+				"image": "image-5f4401e6b7e70f446b2763b1d1cbc806d577d6e0-1024x1024-png",
+				"title": "React"
+			},
+			{
+				"image": {
+					"_type": "image",
+					"asset": {
+						"_ref": "image-9ad2e015bd5f07e90897670fd556c899929f09e1-474x474-jpg",
+						"_type": "reference"
+					}
+				},
+				"title": "Firebase"
+			},
+			{
+				"image": {
+					"_type": "image",
+					"asset": {
+						"_ref": "image-40d030171cca153ebce55972cb149708ee30c9e4-234x270-jpg",
+						"_type": "reference"
+					}
+				},
+				"title": "TailwindCSS"
+			},
+			{
+				"image": {
+					"_type": "image",
+					"asset": {
+						"_ref": "image-8c782b6c87ae64ea6c5794834d9cd2a23dc047f4-218x154-jpg",
+						"_type": "reference"
+					}
+				},
+				"title": "NextJS"
+			},
+			{
+				"image": {
+					"_type": "image",
+					"asset": {
+						"_ref": "image-7b81c6554ab90621149e67f59714631f0393a7c0-600x600-jpg",
+						"_type": "reference"
+					}
+				},
+				"title": "Stripe"
+			}
+		],
+    "title": "Amazon Clone"
+},
 		{
 			"_createdAt": "2022-12-27T01:59:57Z",
 			"_id": "62ef6f51-9313-4fd1-9562-098c37c5ed85",
