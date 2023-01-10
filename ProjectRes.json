@@ -116,6 +116,110 @@
 				"title": "Firebase"
 			},
 			{
+				"image": {
+					"_type": "image",
+					"asset": {
+						"_ref": "image-da112bebca6b4f1829d64c3d5da0645c61c9af71-602x341-png",
+						"_type": "reference"
+					}
+				},
+				"title": "SCSS"
+			}
+		],
+    "title": "Realtime Chat"
+},
+{
+	"_createdAt": "2023-01-10T09:35:39Z",
+	"_id": "6d86dfc7-3994-4a49-a341-b7cff5e3cb83",
+	"_rev": "QKOle8bS5pnTMrybFSMnNq",
+	"_type": "project",
+	"_updatedAt": "2023-01-10T09:35:39Z",
+	"image": {
+		"_type": "image",
+		"asset": {
+			"_ref": "image-1ca2f645ec67e191050c1cafa7dfd5b42704cf75-1909x879-png",
+			"_type": "reference"
+		}
+	},
+	"link": "https://react-next-twitter-clone.vercel.app/",
+	"githubLink": "https://github.com/Kqyang29/React-Next-Twitter-clone",
+	"points": [
+		"user can sign in and sign out with google",
+		"user can post tweet with images",
+		"user can like the post",
+		"user can leave the comment with the post",
+		"user can delete the post",
+		"user can delete the comment",
+		"user can browser the what's happening news"
+	],
+	"tech": [
+		{
+			"image": "image-5f4401e6b7e70f446b2763b1d1cbc806d577d6e0-1024x1024-png",
+			"title": "React"
+		},
+		{
+			"image": {
+				"_type": "image",
+				"asset": {
+					"_ref": "image-9ad2e015bd5f07e90897670fd556c899929f09e1-474x474-jpg",
+					"_type": "reference"
+				}
+			},
+			"title": "Firebase"
+		},
+		{
+			"image": {
+				"_type": "image",
+				"asset": {
+					"_ref": "image-8c782b6c87ae64ea6c5794834d9cd2a23dc047f4-218x154-jpg",
+					"_type": "reference"
+				}
+			},
+			"title": "NextJS"
+		},
+		{
+			"image": {
+				"_type": "image",
+				"asset": {
+					"_ref": "image-40d030171cca153ebce55972cb149708ee30c9e4-234x270-jpg",
+					"_type": "reference"
+				}
+			},
+			"title": "TailwindCSS"
+		},
+		{
+			"image": {
+				"_type": "image",
+				"asset": {
+					"_ref": "image-bab395b4f8707775d9cc98ebd209adaaa6fa29ce-784x724-png",
+					"_type": "reference"
+				}
+			},
+			"title": "Recoil"
+		}
+	],
+	"title": "Twitter Clone"
+},
+{
+    "_createdAt": "2023-01-04T23:56:08Z",
+    "_id": "8952ce72-6b48-43a2-ab74-d630353b97f9",
+    "_rev": "k3tSZ5dqCOGIJhLChNwAvV",
+    "_type": "project",
+    "_updatedAt": "2023-01-04T23:56:08Z",
+    "image": {
+        "_type": "image",
+        "asset": {
+            "_ref": "image-e22f6a3e19b91f84660844830a977842a4afcedf-1920x883-png",
+            "_type": "reference"
+        }
+    },
+    "link": "https://react-next-js-facebook-clone-8wxgo84ew-kqyang29.vercel.app/",
+    "points": [
+        "User can Signing with Google and Sign-out by click the Avatar Picture in Header",
+        "User can post the Message and Picture in the Input Box"
+    ],
+    "tech": [
+        {
 				"image": "image-5f4401e6b7e70f446b2763b1d1cbc806d577d6e0-1024x1024-png",
 				"title": "React"
 			},
@@ -128,9 +232,29 @@
 					}
 				},
 				"title": "Firebase"
-			}
-		],
-    "title": "Realtime Chat"
+			},
+			{
+					"image": {
+						"_type": "image",
+						"asset": {
+							"_ref": "image-8c782b6c87ae64ea6c5794834d9cd2a23dc047f4-218x154-jpg",
+							"_type": "reference"
+						}
+					},
+					"title": "NextJS"
+				},
+				{
+					"image": {
+						"_type": "image",
+						"asset": {
+							"_ref": "image-40d030171cca153ebce55972cb149708ee30c9e4-234x270-jpg",
+							"_type": "reference"
+						}
+					},
+					"title": "TailwindCSS"
+				}
+    ],
+    "title": "Facebook Clone"
 },
 		{
 			"_createdAt": "2022-12-27T01:59:57Z",
