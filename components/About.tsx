@@ -7,20 +7,20 @@ import { urlFor } from '../sanity';
 function About() {
 	// console.log(pageInfo)
 	return (
-		<div className="max-w-6xl h-screen mx-auto flex flex-col items-center mb-20">
+		<div className="max-w-6xl h-screen mx-auto flex flex-col items-center mb-20 pt-14 md:pt-0">
 			<h3 className="text-gray-500 text-xl uppercase tracking-[24px] mt-16">
 				About
 			</h3>
 
-			<div className="flex flex-col items-center space-x-5 ">
+			<div className="flex flex-col items-center ">
 				<div className="my-10">
-					<div className="flex items-center flex-row md:flex-col md:ml-0 space-x-8">
+					<div className="flex items-center flex-row md:ml-0 space-x-8 ">
 						<img
 							src="./me.jpg"
 							alt=""
-							className="rounded-full md:rounded-lg  mr-2 w-24 h-24 md:w-32 md:h-32 md:w-56 md:h-56 hover:scale-105 transition transform duration-150"
+							className="rounded-full w-24 h-24 md:w-32 md:h-32 lg:w-44 lg:h-44 hover:scale-105 transition transform duration-150"
 						/>
-						<div className='flex items-center md:pl-20 md:mt-5'>
+						<div className='flex items-center  md:mt-5'>
 							{/* left */}
 							<motion.div
 								initial={{
@@ -102,8 +102,8 @@ function About() {
 					transition={{
 						duration: 1.2,
 					}}
-					className="lg:ml-10 px-10">
-					<p className="text-sm md:text-base max-w-2xl text-left">
+					className="px-10 lg:px-0">
+					<p className="text-sm md:text-base max-w-lg md:max-w-3xl text-left">
 						Hello! My name is Kangqiang Yang and I am currently an undergraduate
 						student majoring in Computer Science at California State University,
 						Northridge. Strong growth mindset, addicted to learning, love

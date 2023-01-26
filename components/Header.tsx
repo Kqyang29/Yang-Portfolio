@@ -20,11 +20,12 @@ function Header() {
 					transition={{
 						duration: 1.5,
 					}}
-					className="space-x-0 md:space-x-5 ">
+					className="space-x-0 md:space-x-5">
 					<SocialIcon
 						url="https://github.com/Kqyang29?tab=repositories"
 						fgColor="lightgray"
 						bgColor="transparent"
+						
 					/>
 					<SocialIcon
 						url="https://twitter.com/Boom57206558"
@@ -57,7 +58,7 @@ function Header() {
 					<a
 						href="Kangqiang Yang Resume.pdf"
 						download="Kangqiang Yang Resume.pdf">
-						<button className="uppercase rounded-full shadow-sm shadow-gray-400 p-2 text-sm text-gray-300 hover:bg-slate-500 ">
+						<button className="uppercase rounded-full shadow-sm shadow-gray-400 p-2 text-xs md:text-sm text-gray-300 hover:bg-slate-500">
 							Download the Resume
 						</button>
 					</a>
