@@ -20,7 +20,7 @@ function Header() {
 					transition={{
 						duration: 1.5,
 					}}
-					className="space-x-5 ">
+					className="space-x-0 md:space-x-5 ">
 					<SocialIcon
 						url="https://github.com/Kqyang29?tab=repositories"
 						fgColor="lightgray"

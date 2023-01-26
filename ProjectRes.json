@@ -54,6 +54,69 @@
 		],
     "title": "Realtor Clone"
 },
+{
+    "_createdAt": "2023-01-26T08:48:42Z",
+    "_id": "0dae39fd-cc46-4d70-bcf1-8cf2ca49da43",
+    "_rev": "5LcYQDxXHQkCUNgfsoRGIl",
+    "_type": "project",
+    "_updatedAt": "2023-01-26T08:48:42Z",
+    "image": {
+        "_type": "image",
+        "asset": {
+            "_ref": "image-39d9bd4f0db78f6281e65a2e736412cbb7258cdc-1920x879-png",
+            "_type": "reference"
+        }
+    },
+    "link": "https://react-next-tiktok-clone.vercel.app/",
+		"githubLink":"https://github.com/kangqiangyang/React_Next-Tiktok_clone",
+    "points": [
+        "User Sign In/Up with Google",
+        "Search Function ==> search Users/Videos",
+        "Upload Video ==> Browser Video when Uploading",
+        "User Profile ==> Post Video and Like Video",
+        "Like and Comment the Video",
+        "Navigate different pages and show the video based on the Categories of Sidebar (Development, Game..)",
+        "Show other Users in Suggestion Account Section",
+        "Fully Responsive Pages"
+    ],
+    "tech": [
+			{
+				"image": "image-5f4401e6b7e70f446b2763b1d1cbc806d577d6e0-1024x1024-png",
+				"title": "React"
+			},
+			{
+				"image": {
+					"_type": "image",
+					"asset": {
+						"_ref": "image-9ad2e015bd5f07e90897670fd556c899929f09e1-474x474-jpg",
+						"_type": "reference"
+					}
+				},
+				"title": "Firebase"
+			},
+			{
+				"image": {
+					"_type": "image",
+					"asset": {
+						"_ref": "image-40d030171cca153ebce55972cb149708ee30c9e4-234x270-jpg",
+						"_type": "reference"
+					}
+				},
+				"title": "TailwindCSS"
+			},
+			{
+				"image": {
+					"_type": "image",
+					"asset": {
+						"_ref": "image-8c782b6c87ae64ea6c5794834d9cd2a23dc047f4-218x154-jpg",
+						"_type": "reference"
+					}
+				},
+				"title": "NextJS"
+			}
+		],
+    "title": "TikTok Clone"
+},
 			{
     "_createdAt": "2022-12-31T21:41:39Z",
     "_id": "fb919c35-8ac4-48d1-b2ad-4aa4e88483ba",

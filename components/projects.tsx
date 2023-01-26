@@ -13,7 +13,7 @@ function Projects() {
 
 	let image: any;
 	const projects = ProjectRes.result;
-	console.log(projects[3]);
+	// console.log(projects[3]);
 	return (
 		<motion.div
 			initial={{
@@ -25,7 +25,7 @@ function Projects() {
 			transition={{
 				duration: 1.5,
 			}}
-			className="max-w-5xl min-h-screen mx-auto text-center flex flex-col justify-center p-10  ">
+			className="max-w-5xl min-h-screen mx-auto text-center flex flex-col justify-center py-10 px-10 ">
 			<h3 className="text-gray-500 uppercase text-2xl tracking-[12px] mt-10">
 				Project
 			</h3>
