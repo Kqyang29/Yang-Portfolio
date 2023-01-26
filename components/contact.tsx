@@ -43,7 +43,7 @@ function Contact() {
 				<form
 					onSubmit={handleSubmit(onSubmit)}
 					className="flex flex-col space-y-5 w-full">
-					<div className="md:space-x-3 flex items-center flex-col md:flex-row gap-5 md:gap-0 w-full">
+					<div className="md:space-x-3 flex items-center flex-col sm:flex-row gap-5 md:gap-0 w-full">
 						<input
 							className="contactInput "
 							type="text"
