@@ -1,356 +1,492 @@
 {
 	"result": [
 		{
-    "_createdAt": "2023-01-16T23:22:35Z",
-    "_id": "7de87b8e-03c7-447c-942a-b2642793891c",
-    "_rev": "1cD71cnhXiFRT4MuDKE78D",
-    "_type": "project",
-    "_updatedAt": "2023-01-16T23:22:35Z",
-    "image": {
-        "_type": "image",
-        "asset": {
-            "_ref": "image-8675b74d6e35f107edd02638b881fd1631f81f17-1909x868-png",
-            "_type": "reference"
-        }
-    },
-    "link": "https://react-realtor-clone-jet.vercel.app/",
-		"githubLink":"https://github.com/Kqyang29/React-Realtor-clone",
-    "points": [
-        "User can Sign up or sign in account by google or email & password..",
-        "User can receive an email to change password if they forget their password.",
-        "User can Edit their account profile.",
-        "User can post their house for sale or rent",
-        "User can see their house location based on the house address",
-        "Auth User can edit the house information",
-        "Auth user can delete the post house",
-        "User can contact the house owner based on email",
-        "Fully Responsive Pages"
-    ],
-    "tech": [
-			{
-				"image": "image-5f4401e6b7e70f446b2763b1d1cbc806d577d6e0-1024x1024-png",
-				"title": "React"
-			},
-			{
-				"image": {
-					"_type": "image",
-					"asset": {
-						"_ref": "image-9ad2e015bd5f07e90897670fd556c899929f09e1-474x474-jpg",
-						"_type": "reference"
-					}
-				},
-				"title": "Firebase"
-			},
-			{
-				"image": {
-					"_type": "image",
-					"asset": {
-						"_ref": "image-40d030171cca153ebce55972cb149708ee30c9e4-234x270-jpg",
-						"_type": "reference"
-					}
-				},
-				"title": "TailwindCSS"
-			}
-		],
-    "title": "Realtor Clone"
-},
-{
-    "_createdAt": "2023-01-26T08:48:42Z",
-    "_id": "0dae39fd-cc46-4d70-bcf1-8cf2ca49da43",
-    "_rev": "5LcYQDxXHQkCUNgfsoRGIl",
-    "_type": "project",
-    "_updatedAt": "2023-01-26T08:48:42Z",
-    "image": {
-        "_type": "image",
-        "asset": {
-            "_ref": "image-39d9bd4f0db78f6281e65a2e736412cbb7258cdc-1920x879-png",
-            "_type": "reference"
-        }
-    },
-    "link": "https://react-next-tiktok-clone.vercel.app/",
-		"githubLink":"https://github.com/kangqiangyang/React_Next-Tiktok_clone",
-    "points": [
-        "User Sign In/Up with Google",
-        "Search Function ==> search Users/Videos",
-        "Upload Video ==> Browser Video when Uploading",
-        "User Profile ==> Post Video and Like Video",
-        "Like and Comment the Video",
-        "Navigate different pages and show the video based on the Categories of Sidebar (Development, Game..)",
-        "Show other Users in Suggestion Account Section",
-        "Fully Responsive Pages"
-    ],
-    "tech": [
-			{
-				"image": "image-5f4401e6b7e70f446b2763b1d1cbc806d577d6e0-1024x1024-png",
-				"title": "React"
-			},
-			{
-				"image": {
-					"_type": "image",
-					"asset": {
-						"_ref": "image-9ad2e015bd5f07e90897670fd556c899929f09e1-474x474-jpg",
-						"_type": "reference"
-					}
-				},
-				"title": "Firebase"
-			},
-			{
-				"image": {
-					"_type": "image",
-					"asset": {
-						"_ref": "image-40d030171cca153ebce55972cb149708ee30c9e4-234x270-jpg",
-						"_type": "reference"
-					}
-				},
-				"title": "TailwindCSS"
-			},
-			{
-				"image": {
-					"_type": "image",
-					"asset": {
-						"_ref": "image-8c782b6c87ae64ea6c5794834d9cd2a23dc047f4-218x154-jpg",
-						"_type": "reference"
-					}
-				},
-				"title": "NextJS"
-			}
-		],
-    "title": "TikTok Clone"
-},
-			{
-    "_createdAt": "2022-12-31T21:41:39Z",
-    "_id": "fb919c35-8ac4-48d1-b2ad-4aa4e88483ba",
-    "_rev": "ZztGyD1pWq3UKdC5qFSe77",
-    "_type": "project",
-    "_updatedAt": "2022-12-31T21:44:48Z",
-    "image": {
-        "_type": "image",
-        "asset": {
-            "_ref": "image-bed15cfe96cc42a528aa219e01b77d797a80e43b-1915x874-png",
-            "_type": "reference"
-        }
-    },
-    "link": "https://react-amazon-clone-psi.vercel.app/",
-		"githubLink":"https://github.com/Kqyang29/react-amazon-clone",
-    "points": [
-        "User login with Google Account",
-        "Select Product and browser the products in Shopping Basket",
-        "User checkout the basket by Stripe",
-        "After Accept payment, User can check their order in Order Page"
-    ],
-    "tech": [
-			{
-				"image": {
-					"_type": "image",
-					"asset": {
-						"_ref": "image-89ecc70c2c9f45b67a1298444f26f688a5b551ce-232x270-jpg",
-						"_type": "reference"
-					}
-				},
-				"title": "Redux"
-			},
-			{
-				"image": "image-5f4401e6b7e70f446b2763b1d1cbc806d577d6e0-1024x1024-png",
-				"title": "React"
-			},
-			{
-				"image": {
-					"_type": "image",
-					"asset": {
-						"_ref": "image-9ad2e015bd5f07e90897670fd556c899929f09e1-474x474-jpg",
-						"_type": "reference"
-					}
-				},
-				"title": "Firebase"
-			},
-			{
-				"image": {
-					"_type": "image",
-					"asset": {
-						"_ref": "image-40d030171cca153ebce55972cb149708ee30c9e4-234x270-jpg",
-						"_type": "reference"
-					}
-				},
-				"title": "TailwindCSS"
-			},
-			{
-				"image": {
-					"_type": "image",
-					"asset": {
-						"_ref": "image-8c782b6c87ae64ea6c5794834d9cd2a23dc047f4-218x154-jpg",
-						"_type": "reference"
-					}
-				},
-				"title": "NextJS"
-			},
-			{
-				"image": {
-					"_type": "image",
-					"asset": {
-						"_ref": "image-7b81c6554ab90621149e67f59714631f0393a7c0-600x600-jpg",
-						"_type": "reference"
-					}
-				},
-				"title": "Stripe"
-			}
-		],
-    "title": "Amazon Clone"
-},
-{
-    "_createdAt": "2023-01-03T02:03:56Z",
-    "_id": "5ed12cec-400f-42d6-961f-df82ec2fe4fc",
-    "_rev": "ZztGyD1pWq3UKdC5qMGbIL",
-    "_type": "project",
-    "_updatedAt": "2023-01-03T02:07:09Z",
-    "image": {
-        "_type": "image",
-        "asset": {
-            "_ref": "image-337c4a7196d6e6ade9ec58d71a46db591dae39f8-1920x888-png",
-            "_type": "reference"
-        }
-    },
-    "link": "https://react-realtime-chat-nine.vercel.app/",
-		"githubLink":"https://github.com/Kqyang29/React_Realtime_chat",
-    "points": [
-        "allow user to apply 1v1 Realtime chat",
-        "Login or SignUp with email & password",
-        "allow user to Search and add Friends",
-        "Messages can send with text or photo"
-    ],
-    "tech": [
-			{
-				"image": "image-5f4401e6b7e70f446b2763b1d1cbc806d577d6e0-1024x1024-png",
-				"title": "React"
-			},
-			{
-				"image": {
-					"_type": "image",
-					"asset": {
-						"_ref": "image-9ad2e015bd5f07e90897670fd556c899929f09e1-474x474-jpg",
-						"_type": "reference"
-					}
-				},
-				"title": "Firebase"
-			},
-			{
-				"image": {
-					"_type": "image",
-					"asset": {
-						"_ref": "image-da112bebca6b4f1829d64c3d5da0645c61c9af71-602x341-png",
-						"_type": "reference"
-					}
-				},
-				"title": "SCSS"
-			}
-		],
-    "title": "Realtime Chat"
-},
-{
-	"_createdAt": "2023-01-10T09:35:39Z",
-	"_id": "6d86dfc7-3994-4a49-a341-b7cff5e3cb83",
-	"_rev": "QKOle8bS5pnTMrybFSMnNq",
-	"_type": "project",
-	"_updatedAt": "2023-01-10T09:35:39Z",
-	"image": {
-		"_type": "image",
-		"asset": {
-			"_ref": "image-1ca2f645ec67e191050c1cafa7dfd5b42704cf75-1909x879-png",
-			"_type": "reference"
-		}
-	},
-	"link": "https://react-next-twitter-clone.vercel.app/",
-	"githubLink": "https://github.com/Kqyang29/React-Next-Twitter-clone",
-	"points": [
-		"user can sign in and sign out with google",
-		"user can post tweet with images",
-		"user can like the post",
-		"user can leave the comment with the post",
-		"user can delete the post",
-		"user can delete the comment",
-		"user can browser the what's happening news"
-	],
-	"tech": [
-		{
-			"image": "image-5f4401e6b7e70f446b2763b1d1cbc806d577d6e0-1024x1024-png",
-			"title": "React"
-		},
-		{
+			"_createdAt": "2023-02-05T05:30:43Z",
+			"_id": "6b8e4b83-bf8c-405c-993f-647291efd773",
+			"_rev": "E244exZU7qgyy7LW2QwMCN",
+			"_type": "project",
+			"_updatedAt": "2023-02-05T05:40:46Z",
 			"image": {
 				"_type": "image",
 				"asset": {
-					"_ref": "image-9ad2e015bd5f07e90897670fd556c899929f09e1-474x474-jpg",
+					"_ref": "image-f76c8be87d06e2038fa9fb44c8f8619a99861407-1471x861-png",
 					"_type": "reference"
 				}
 			},
-			"title": "Firebase"
-		},
-		{
-			"image": {
-				"_type": "image",
-				"asset": {
-					"_ref": "image-8c782b6c87ae64ea6c5794834d9cd2a23dc047f4-218x154-jpg",
-					"_type": "reference"
-				}
-			},
-			"title": "NextJS"
-		},
-		{
-			"image": {
-				"_type": "image",
-				"asset": {
-					"_ref": "image-40d030171cca153ebce55972cb149708ee30c9e4-234x270-jpg",
-					"_type": "reference"
-				}
-			},
-			"title": "TailwindCSS"
-		},
-		{
-			"image": {
-				"_type": "image",
-				"asset": {
-					"_ref": "image-bab395b4f8707775d9cc98ebd209adaaa6fa29ce-784x724-png",
-					"_type": "reference"
-				}
-			},
-			"title": "Recoil"
-		}
-	],
-	"title": "Twitter Clone"
-},
-{
-    "_createdAt": "2023-01-04T23:56:08Z",
-    "_id": "8952ce72-6b48-43a2-ab74-d630353b97f9",
-    "_rev": "k3tSZ5dqCOGIJhLChNwAvV",
-    "_type": "project",
-    "_updatedAt": "2023-01-04T23:56:08Z",
-    "image": {
-        "_type": "image",
-        "asset": {
-            "_ref": "image-e22f6a3e19b91f84660844830a977842a4afcedf-1920x883-png",
-            "_type": "reference"
-        }
-    },
-    "link": "https://react-next-js-facebook-clone-8wxgo84ew-kqyang29.vercel.app/",
-    "points": [
-        "User can Signing with Google and Sign-out by click the Avatar Picture in Header",
-        "User can post the Message and Picture in the Input Box"
-    ],
-    "tech": [
-        {
-				"image": "image-5f4401e6b7e70f446b2763b1d1cbc806d577d6e0-1024x1024-png",
-				"title": "React"
-			},
-			{
-				"image": {
-					"_type": "image",
-					"asset": {
-						"_ref": "image-9ad2e015bd5f07e90897670fd556c899929f09e1-474x474-jpg",
-						"_type": "reference"
+			"link": "https://react-next-pizza-shop.vercel.app/",
+			"githubLink": "https://github.com/kangqiangyang8243/React_Next_PizzaShop",
+			"points": [
+				"Backend Use MongoDB & NodeJS to Host Data",
+				"User can select Pizza with Toppings, Quantity, Size and based on different Conditions to show different Price",
+				"User can Browser the Shopping Cart",
+				"User can delete the product what they don't need",
+				"User can Pay with Cash or PayPal",
+				"Fully Responsive Page",
+				"Admin Page only certain userName and Password then can Sign In",
+				"Use Cookies to set up the Login expired time of Admin User ",
+				"Admin User can Create, Update, Delete the products",
+				"Admin User can Host the Order details and process to next Stage (preparing, on the way, Delivered)"
+			],
+			"tech": [
+				{
+					"image": "image-5f4401e6b7e70f446b2763b1d1cbc806d577d6e0-1024x1024-png",
+					"title": "React"
+				},
+				{
+					"image": {
+						"_type": "image",
+						"asset": {
+							"_ref": "image-40d030171cca153ebce55972cb149708ee30c9e4-234x270-jpg",
+							"_type": "reference"
+						}
+					},
+					"title": "TailwindCSS"
+				},
+				{
+					"image": {
+						"_type": "image",
+						"asset": {
+							"_ref": "image-f5581dcd846d344b1b71713afe76a92526926754-500x400-gif",
+							"_type": "reference"
+						},
+						"title": "MongoDB"
 					}
 				},
-				"title": "Firebase"
+				{
+					"image": {
+						"_type": "image",
+						"asset": {
+							"_ref": "image-03a4cd56d5bf71913410bbc254df813f2cc0853d-1000x1000-jpg",
+							"_type": "reference"
+						},
+						"title": "NodeJS"
+					}
+				},
+				{
+					"image": {
+						"_type": "image",
+						"asset": {
+							"_ref": "image-de8f7f2e108acf9c1fa27b409673d0e102939018-226x142-jpg",
+							"_type": "reference"
+						}
+					},
+					"title": "PayPal"
+				}
+			],
+			"title": "React_Next_Node_PizzaOrder"
+		},
+		{
+			"_createdAt": "2023-02-05T05:40:10Z",
+			"_id": "b658a30c-488e-41ea-9300-bd40fba49f6c",
+			"_rev": "5LcYQDxXHQkCUNgfvxk6K0",
+			"_type": "project",
+			"_updatedAt": "2023-02-05T05:41:45Z",
+			"image": {
+				"_type": "image",
+				"asset": {
+					"_ref": "image-613e393b02b0c6725c87e4de6556db666f2956d6-1021x867-png",
+					"_type": "reference"
+				}
 			},
-			{
+			"link": "https://yang-react-blog.vercel.app/",
+			"githubLink": "https://github.com/kangqiangyang8243/React_Blog_FrontEnd",
+			"points": [
+				"User can Login/Register a account",
+				"User can browser different Blogs",
+				"User can upload the blog",
+				"User can update their account information",
+				"User can delete and edit their own blogs",
+				"User can navigate to different pages based on Categories and shows their posts which under that category"
+			],
+			"tech": [
+				{
+					"image": "image-5f4401e6b7e70f446b2763b1d1cbc806d577d6e0-1024x1024-png",
+					"title": "React"
+				},
+				{
+					"image": {
+						"_type": "image",
+						"asset": {
+							"_ref": "image-40d030171cca153ebce55972cb149708ee30c9e4-234x270-jpg",
+							"_type": "reference"
+						}
+					},
+					"title": "TailwindCSS"
+				},
+				{
+					"image": {
+						"_type": "image",
+						"asset": {
+							"_ref": "image-f5581dcd846d344b1b71713afe76a92526926754-500x400-gif",
+							"_type": "reference"
+						},
+						"title": "MongoDB"
+					}
+				},
+				{
+					"image": {
+						"_type": "image",
+						"asset": {
+							"_ref": "image-03a4cd56d5bf71913410bbc254df813f2cc0853d-1000x1000-jpg",
+							"_type": "reference"
+						},
+						"title": "NodeJS"
+					}
+				}
+			],
+			"title": "React_Blog"
+		},
+		{
+			"_createdAt": "2023-01-16T23:22:35Z",
+			"_id": "7de87b8e-03c7-447c-942a-b2642793891c",
+			"_rev": "1cD71cnhXiFRT4MuDKE78D",
+			"_type": "project",
+			"_updatedAt": "2023-01-16T23:22:35Z",
+			"image": {
+				"_type": "image",
+				"asset": {
+					"_ref": "image-8675b74d6e35f107edd02638b881fd1631f81f17-1909x868-png",
+					"_type": "reference"
+				}
+			},
+			"link": "https://react-realtor-clone-jet.vercel.app/",
+			"githubLink": "https://github.com/Kqyang29/React-Realtor-clone",
+			"points": [
+				"User can Sign up or sign in account by google or email & password..",
+				"User can receive an email to change password if they forget their password.",
+				"User can Edit their account profile.",
+				"User can post their house for sale or rent",
+				"User can see their house location based on the house address",
+				"Auth User can edit the house information",
+				"Auth user can delete the post house",
+				"User can contact the house owner based on email",
+				"Fully Responsive Pages"
+			],
+			"tech": [
+				{
+					"image": "image-5f4401e6b7e70f446b2763b1d1cbc806d577d6e0-1024x1024-png",
+					"title": "React"
+				},
+				{
+					"image": {
+						"_type": "image",
+						"asset": {
+							"_ref": "image-9ad2e015bd5f07e90897670fd556c899929f09e1-474x474-jpg",
+							"_type": "reference"
+						}
+					},
+					"title": "Firebase"
+				},
+				{
+					"image": {
+						"_type": "image",
+						"asset": {
+							"_ref": "image-40d030171cca153ebce55972cb149708ee30c9e4-234x270-jpg",
+							"_type": "reference"
+						}
+					},
+					"title": "TailwindCSS"
+				}
+			],
+			"title": "Realtor Clone"
+		},
+		{
+			"_createdAt": "2023-01-26T08:48:42Z",
+			"_id": "0dae39fd-cc46-4d70-bcf1-8cf2ca49da43",
+			"_rev": "5LcYQDxXHQkCUNgfsoRGIl",
+			"_type": "project",
+			"_updatedAt": "2023-01-26T08:48:42Z",
+			"image": {
+				"_type": "image",
+				"asset": {
+					"_ref": "image-39d9bd4f0db78f6281e65a2e736412cbb7258cdc-1920x879-png",
+					"_type": "reference"
+				}
+			},
+			"link": "https://react-next-tiktok-clone.vercel.app/",
+			"githubLink": "https://github.com/kangqiangyang/React_Next-Tiktok_clone",
+			"points": [
+				"User Sign In/Up with Google",
+				"Search Function ==> search Users/Videos",
+				"Upload Video ==> Browser Video when Uploading",
+				"User Profile ==> Post Video and Like Video",
+				"Like and Comment the Video",
+				"Navigate different pages and show the video based on the Categories of Sidebar (Development, Game..)",
+				"Show other Users in Suggestion Account Section",
+				"Fully Responsive Pages"
+			],
+			"tech": [
+				{
+					"image": "image-5f4401e6b7e70f446b2763b1d1cbc806d577d6e0-1024x1024-png",
+					"title": "React"
+				},
+				{
+					"image": {
+						"_type": "image",
+						"asset": {
+							"_ref": "image-9ad2e015bd5f07e90897670fd556c899929f09e1-474x474-jpg",
+							"_type": "reference"
+						}
+					},
+					"title": "Firebase"
+				},
+				{
+					"image": {
+						"_type": "image",
+						"asset": {
+							"_ref": "image-40d030171cca153ebce55972cb149708ee30c9e4-234x270-jpg",
+							"_type": "reference"
+						}
+					},
+					"title": "TailwindCSS"
+				},
+				{
+					"image": {
+						"_type": "image",
+						"asset": {
+							"_ref": "image-8c782b6c87ae64ea6c5794834d9cd2a23dc047f4-218x154-jpg",
+							"_type": "reference"
+						}
+					},
+					"title": "NextJS"
+				}
+			],
+			"title": "TikTok Clone"
+		},
+		{
+			"_createdAt": "2022-12-31T21:41:39Z",
+			"_id": "fb919c35-8ac4-48d1-b2ad-4aa4e88483ba",
+			"_rev": "ZztGyD1pWq3UKdC5qFSe77",
+			"_type": "project",
+			"_updatedAt": "2022-12-31T21:44:48Z",
+			"image": {
+				"_type": "image",
+				"asset": {
+					"_ref": "image-bed15cfe96cc42a528aa219e01b77d797a80e43b-1915x874-png",
+					"_type": "reference"
+				}
+			},
+			"link": "https://react-amazon-clone-psi.vercel.app/",
+			"githubLink": "https://github.com/Kqyang29/react-amazon-clone",
+			"points": [
+				"User login with Google Account",
+				"Select Product and browser the products in Shopping Basket",
+				"User checkout the basket by Stripe",
+				"After Accept payment, User can check their order in Order Page"
+			],
+			"tech": [
+				{
+					"image": {
+						"_type": "image",
+						"asset": {
+							"_ref": "image-89ecc70c2c9f45b67a1298444f26f688a5b551ce-232x270-jpg",
+							"_type": "reference"
+						}
+					},
+					"title": "Redux"
+				},
+				{
+					"image": "image-5f4401e6b7e70f446b2763b1d1cbc806d577d6e0-1024x1024-png",
+					"title": "React"
+				},
+				{
+					"image": {
+						"_type": "image",
+						"asset": {
+							"_ref": "image-9ad2e015bd5f07e90897670fd556c899929f09e1-474x474-jpg",
+							"_type": "reference"
+						}
+					},
+					"title": "Firebase"
+				},
+				{
+					"image": {
+						"_type": "image",
+						"asset": {
+							"_ref": "image-40d030171cca153ebce55972cb149708ee30c9e4-234x270-jpg",
+							"_type": "reference"
+						}
+					},
+					"title": "TailwindCSS"
+				},
+				{
+					"image": {
+						"_type": "image",
+						"asset": {
+							"_ref": "image-8c782b6c87ae64ea6c5794834d9cd2a23dc047f4-218x154-jpg",
+							"_type": "reference"
+						}
+					},
+					"title": "NextJS"
+				},
+				{
+					"image": {
+						"_type": "image",
+						"asset": {
+							"_ref": "image-7b81c6554ab90621149e67f59714631f0393a7c0-600x600-jpg",
+							"_type": "reference"
+						}
+					},
+					"title": "Stripe"
+				}
+			],
+			"title": "Amazon Clone"
+		},
+		{
+			"_createdAt": "2023-01-03T02:03:56Z",
+			"_id": "5ed12cec-400f-42d6-961f-df82ec2fe4fc",
+			"_rev": "ZztGyD1pWq3UKdC5qMGbIL",
+			"_type": "project",
+			"_updatedAt": "2023-01-03T02:07:09Z",
+			"image": {
+				"_type": "image",
+				"asset": {
+					"_ref": "image-337c4a7196d6e6ade9ec58d71a46db591dae39f8-1920x888-png",
+					"_type": "reference"
+				}
+			},
+			"link": "https://react-realtime-chat-nine.vercel.app/",
+			"githubLink": "https://github.com/Kqyang29/React_Realtime_chat",
+			"points": [
+				"allow user to apply 1v1 Realtime chat",
+				"Login or SignUp with email & password",
+				"allow user to Search and add Friends",
+				"Messages can send with text or photo"
+			],
+			"tech": [
+				{
+					"image": "image-5f4401e6b7e70f446b2763b1d1cbc806d577d6e0-1024x1024-png",
+					"title": "React"
+				},
+				{
+					"image": {
+						"_type": "image",
+						"asset": {
+							"_ref": "image-9ad2e015bd5f07e90897670fd556c899929f09e1-474x474-jpg",
+							"_type": "reference"
+						}
+					},
+					"title": "Firebase"
+				},
+				{
+					"image": {
+						"_type": "image",
+						"asset": {
+							"_ref": "image-da112bebca6b4f1829d64c3d5da0645c61c9af71-602x341-png",
+							"_type": "reference"
+						}
+					},
+					"title": "SCSS"
+				}
+			],
+			"title": "Realtime Chat"
+		},
+		{
+			"_createdAt": "2023-01-10T09:35:39Z",
+			"_id": "6d86dfc7-3994-4a49-a341-b7cff5e3cb83",
+			"_rev": "QKOle8bS5pnTMrybFSMnNq",
+			"_type": "project",
+			"_updatedAt": "2023-01-10T09:35:39Z",
+			"image": {
+				"_type": "image",
+				"asset": {
+					"_ref": "image-1ca2f645ec67e191050c1cafa7dfd5b42704cf75-1909x879-png",
+					"_type": "reference"
+				}
+			},
+			"link": "https://react-next-twitter-clone.vercel.app/",
+			"githubLink": "https://github.com/Kqyang29/React-Next-Twitter-clone",
+			"points": [
+				"user can sign in and sign out with google",
+				"user can post tweet with images",
+				"user can like the post",
+				"user can leave the comment with the post",
+				"user can delete the post",
+				"user can delete the comment",
+				"user can browser the what's happening news"
+			],
+			"tech": [
+				{
+					"image": "image-5f4401e6b7e70f446b2763b1d1cbc806d577d6e0-1024x1024-png",
+					"title": "React"
+				},
+				{
+					"image": {
+						"_type": "image",
+						"asset": {
+							"_ref": "image-9ad2e015bd5f07e90897670fd556c899929f09e1-474x474-jpg",
+							"_type": "reference"
+						}
+					},
+					"title": "Firebase"
+				},
+				{
+					"image": {
+						"_type": "image",
+						"asset": {
+							"_ref": "image-8c782b6c87ae64ea6c5794834d9cd2a23dc047f4-218x154-jpg",
+							"_type": "reference"
+						}
+					},
+					"title": "NextJS"
+				},
+				{
+					"image": {
+						"_type": "image",
+						"asset": {
+							"_ref": "image-40d030171cca153ebce55972cb149708ee30c9e4-234x270-jpg",
+							"_type": "reference"
+						}
+					},
+					"title": "TailwindCSS"
+				},
+				{
+					"image": {
+						"_type": "image",
+						"asset": {
+							"_ref": "image-bab395b4f8707775d9cc98ebd209adaaa6fa29ce-784x724-png",
+							"_type": "reference"
+						}
+					},
+					"title": "Recoil"
+				}
+			],
+			"title": "Twitter Clone"
+		},
+		{
+			"_createdAt": "2023-01-04T23:56:08Z",
+			"_id": "8952ce72-6b48-43a2-ab74-d630353b97f9",
+			"_rev": "k3tSZ5dqCOGIJhLChNwAvV",
+			"_type": "project",
+			"_updatedAt": "2023-01-04T23:56:08Z",
+			"image": {
+				"_type": "image",
+				"asset": {
+					"_ref": "image-e22f6a3e19b91f84660844830a977842a4afcedf-1920x883-png",
+					"_type": "reference"
+				}
+			},
+			"link": "https://react-next-js-facebook-clone-8wxgo84ew-kqyang29.vercel.app/",
+			"points": [
+				"User can Signing with Google and Sign-out by click the Avatar Picture in Header",
+				"User can post the Message and Picture in the Input Box"
+			],
+			"tech": [
+				{
+					"image": "image-5f4401e6b7e70f446b2763b1d1cbc806d577d6e0-1024x1024-png",
+					"title": "React"
+				},
+				{
+					"image": {
+						"_type": "image",
+						"asset": {
+							"_ref": "image-9ad2e015bd5f07e90897670fd556c899929f09e1-474x474-jpg",
+							"_type": "reference"
+						}
+					},
+					"title": "Firebase"
+				},
+				{
 					"image": {
 						"_type": "image",
 						"asset": {
@@ -370,9 +506,9 @@
 					},
 					"title": "TailwindCSS"
 				}
-    ],
-    "title": "Facebook Clone"
-},
+			],
+			"title": "Facebook Clone"
+		},
 		{
 			"_createdAt": "2022-12-27T01:59:57Z",
 			"_id": "62ef6f51-9313-4fd1-9562-098c37c5ed85",
@@ -528,7 +664,6 @@
 			],
 			"title": "Spotify Clone"
 		},
-
 		{
 			"_createdAt": "2022-12-27T01:57:11Z",
 			"_id": "b7b93996-2c4b-47e0-aac1-b7c61a463a62",
@@ -593,7 +728,6 @@
 			],
 			"title": "Airbnb Clone"
 		},
-
 		{
 			"_createdAt": "2022-12-28T00:39:22Z",
 			"_id": "04382fa1-b98f-4b51-9c51-84a4cf2f4606",
@@ -648,7 +782,7 @@
 			],
 			"title": "Google Clone"
 		},
-    {
+		{
 			"_createdAt": "2022-12-28T01:03:49Z",
 			"_id": "ee2c0493-49e7-4526-9ac1-accaf187f04b",
 			"_rev": "ZztGyD1pWq3UKdC5q2uXA3",
@@ -693,7 +827,7 @@
 					},
 					"title": "Firebase"
 				},
-        {
+				{
 					"image": {
 						"_type": "image",
 						"asset": {
@@ -703,11 +837,10 @@
 					},
 					"title": "Material_UI"
 				}
-
 			],
 			"title": "LinkedIn Clone"
 		},
-    {
+		{
 			"_createdAt": "2022-12-28T01:07:52Z",
 			"_id": "410dd34a-e1f8-4c9c-92a3-967b0aaf7633",
 			"_rev": "i5e7SxTSsJ8BOjx3CC3188",
@@ -752,7 +885,7 @@
 					},
 					"title": "Firebase"
 				},
-        {
+				{
 					"image": {
 						"_type": "image",
 						"asset": {
@@ -765,7 +898,7 @@
 			],
 			"title": "Slack Clone"
 		},
-   {
+		{
 			"_createdAt": "2022-12-28T01:16:00Z",
 			"_id": "4b0b373a-dbc0-4678-bae1-33deb3d80055",
 			"_rev": "i5e7SxTSsJ8BOjx3CC7JvG",
@@ -780,7 +913,6 @@
 			},
 			"link": "https://login-app-f6992.web.app/",
 			"githubLink": "https://github.com/Kqyang29/React-Netflix-clone",
-
 			"points": [
 				"User Sign In with Email",
 				"Banner can switch different Topic in each page Refresh",
@@ -826,7 +958,7 @@
 			],
 			"title": "Netflix Clone"
 		},
-    {
+		{
 			"_createdAt": "2022-12-28T01:22:53Z",
 			"_id": "92fba496-d851-4d7c-80cb-6f9bbef9aafb",
 			"_rev": "ZztGyD1pWq3UKdC5q30PI1",
@@ -840,7 +972,7 @@
 				}
 			},
 			"link": "https://react-next-js-instagram-clone.vercel.app/",
-      "githubLink":"https://github.com/Kqyang29/React-Next.js-Instagram-Clone",
+			"githubLink": "https://github.com/Kqyang29/React-Next.js-Instagram-Clone",
 			"points": [
 				"Google Authentication using NextAuth",
 				"Users can Post photos with caption",
@@ -898,7 +1030,7 @@
 			],
 			"title": "Instagram Clone"
 		},
-    {
+		{
 			"_createdAt": "2022-12-28T01:26:57Z",
 			"_id": "92a0ac97-9608-4667-91c2-b5434e6f9303",
 			"_rev": "i5e7SxTSsJ8BOjx3CCI2kj",
@@ -912,7 +1044,7 @@
 				}
 			},
 			"link": "https://linkedin-clone-3dccb.web.app",
-      "githubLink":"https://github.com/Kqyang29/React_Snapchat_clone",
+			"githubLink": "https://github.com/Kqyang29/React_Snapchat_clone",
 			"points": [
 				"User can SignIn with GoogleSignIn && SignOut by Click Avatar",
 				"Click Button ask you get Camera Permission, after allow permission, User can start to take Picture",
@@ -946,7 +1078,7 @@
 					},
 					"title": "Firebase"
 				},
-        {
+				{
 					"image": {
 						"_type": "image",
 						"asset": {
